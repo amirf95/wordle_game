@@ -1,0 +1,38 @@
+.board{
+  margin-top: 60px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+}
+
+
+
+/*line & tile for creating the table */
+.line{
+  display: flex;
+  gap:10px;
+
+}
+.tile{
+  font-family: 'Times New Roman', Times, serif;
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+  font-size :36px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+.correct{
+  background-color: lightgreen;
+}
+.close{
+  background-color: orange;
+}
+.incorrect{
+  background-color: grey;
+}
